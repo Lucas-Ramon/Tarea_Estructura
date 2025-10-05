@@ -1,9 +1,9 @@
-using System; // Importo System para funcionalidades básicas
-using System.Collections.Generic;
+using System; // Proporciona funcionalidades básicas como entrada/salida
+using System.Collections.Generic; // Permite usar listas genéricas
 
-namespace SEMANA_13 
+namespace BusquedaRevistas // Define el espacio de nombres del sistema
 {
-    class CatalogoRevistas // Creé esta clase  catálogo de revistas
+    class CatalogoRevistas // Clase que gestiona el catálogo de revistas
     {
         private List<string> catalogo; // Declaro mi lista donde guardaré los títulos de las revistas
         
